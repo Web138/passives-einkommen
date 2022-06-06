@@ -1,0 +1,641 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "cyberm5",
+      "title": "CyberM5",
+      "styling": {
+        "primaryColor": "#913BFF",
+        "secondaryColor": "#ffd200",
+        "successColor": "#ffd200",
+        "infoColor": "#f0e4ff",
+        "warningColor": "#738bae",
+        "dangerColor": "#ec2016",
+        "mainFont": "Be Vietnam Pro",
+        "display1Font": "Be Vietnam Pro",
+        "display1Size": "5.0",
+        "display2Font": "Be Vietnam Pro",
+        "display2Size": 3.75,
+        "display5Font": "Be Vietnam Pro",
+        "display5Size": 1.875,
+        "display7Font": "Be Vietnam Pro",
+        "display7Size": 1.125,
+        "display4Font": "Be Vietnam Pro",
+        "display4Size": 1.5,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Digital Downloads",
+      "nameSelectPreset": "digital-downloads",
+      "presetSourceTheme": "cyberm5",
+      "additionalSetColors": [
+        "#ffd200",
+        "#11ffc0",
+        "#00fff2",
+        "#b50000",
+        "#450000",
+        "#0a002c"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "66 Impulse - Dein tägliches Motivationsprogramm 2022 mit Christian Bischoff",
+    "versionFirst": "5.6.5",
+    "siteFonts": [
+      {
+        "css": "'Be Vietnam Pro', sans-serif",
+        "name": "Be Vietnam Pro",
+        "url": "https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 16,
+    "versionPublish": "5.6.5",
+    "screenshot": "screenshot.png",
+    "chatbutton": {},
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://smartphone-cash-machine.2022-online.de/",
+    "sitemapSwitcherAuto": "on",
+    "cssOptimize": true,
+    "favicon": "@PROJECT_PATH@/assets/images/button-dmm-groesste-akademie-gold-128x128.png",
+    "mbrsiteDomain": "fvzcv7hmxi",
+    "lazyLoad": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "66 Impulse - Dein tägliches Motivationsprogramm 2022 mit Christian Bischoff",
+        "meta_descr": "Dein tägliches Motivationsprogramm für Wachstum und Erfolg.\n\nMotivation ist ausschlaggebend, um Deine Ziele, Träume und Visionen zu verwirklichen.\nWie bleibst Du jedoch dauerhaft motiviert, auch wenn neue Herausforderungen in Dein Leben kommen und es schwierig wird, den Fokus aufs Wesentliche zu behalten?\n\nChristian Bischoff, einer der erfolgreichsten Persönlichkeits- und Mentaltrainer Deutschlands, hat für Dich 66 Impulse entwickelt, die Dich täglich, über zwei Monate hinweg, motivieren und in Deiner Entwicklung begleiten.\n\nDein tägliches Motivationsprogramm\nChristian hat herausgefunden, dass es 3 wichtige Säulen gibt, die für ein erfülltes und erfolgreiches Leben entscheidend sind.\nGenau diese Säulen werden in den 66 Impulsen besprochen und vertieft:",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "display": "flex",
+              "align-items": "center",
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".label-text": {
+              "width": "100%",
+              "color": "#ffd200",
+              "margin-bottom": "8px",
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#010d4c",
+              "margin-bottom": "8px"
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "opacity": "0.8",
+              "padding-bottom": "20px",
+              "padding-top": "10px",
+              "margin-bottom": "0",
+              "text-align": "center"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "20px",
+              ".btn-secondary, .btn-primary": {
+                "&:hover": {
+                  "color": "#ffffff !important",
+                  "background-color": "@successColor !important"
+                }
+              },
+              ".btn": {
+                "min-height": "55px",
+                "padding": "10px 45px",
+                "&:before": {
+                  "display": "none"
+                },
+                "&:hover": {
+                  "&:before": {
+                    "display": "none"
+                  }
+                }
+              }
+            },
+            ".image-wrapper": {
+              "@media (max-width: 767px)": {
+                "margin-top": "40px"
+              },
+              "img": {
+                "max-width": "100%",
+                "width": "100%",
+                "height": "auto",
+                "object-fit": "cover",
+                "@media (min-width: 992px)": {
+                  "& when (@reverseContent)": {
+                    "padding-right": "5%"
+                  },
+                  "& when not (@reverseContent)": {
+                    "padding-left": "5%"
+                  }
+                }
+              }
+            },
+            ".list": {
+              "display": "flex",
+              "flex-direction": "column",
+              "color": "#FFFFFF",
+              "padding": "0",
+              "margin-bottom": "0",
+              "margin-top": "16px",
+              "width": "100%"
+            },
+            ".list-item": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-bottom": "13px"
+            },
+            ".icon-wrapper": {
+              "display": "flex",
+              "margin-right": "20px",
+              "span": {
+                "color": "@iconColor",
+                "font-size": "13px"
+              }
+            },
+            ".list-item-text": {
+              "flex-grow": "1",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title, .mbr-section-btn": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title, .mbr-section-btn DIV": {
+              "text-align": "center"
+            }
+          },
+          "_name": "afeatures11",
+          "_sourceTheme": "cyberm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"List\" name=\"showList\" checked>\n        <select title=\"List Amount\" name=\"lists1Amount\" condition=\"showList\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"List Icon\" name=\"showListIcon\" condition=\"showList\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#00fff2\" condition=\"showListIcon && showList\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background-1920x1169.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#08002c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"col-12 col-xxl-5 col-lg-6 col-md-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <p class=\"label-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLabel\" data-app-selector=\".label-text\">Dein tägliches Motivationsprogram für Wachstum und Erfolg</p>\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n<div><b>66 IMPULSE</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Christian Bischoff, einer der erfolgreichsten Persönlichkeits- und Mentaltrainer Deutschlands, hat für Dich 66 Impulse entwickelt, die Dich täglich, über zwei Monate hinweg, motivieren und in Deiner Entwicklung begleiten.</p>\n                    <div class=\"lists-container\" mbr-if=\"showList\">\n                        <ul class=\"list\">\n                            <li class=\"list-item\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">66 Impulse für Deine tägliche Motivation<br></p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 1\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Lebenslanger Zugriff auf alle Inhalte</p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 2\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Workbook zum Kurs, um das Gelernte zu vertiefen</p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 3\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Exklusive Bonusinhalte für noch mehr Wachstum&nbsp;</p>\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://www.digistore24.com/redir/284730/Websteps/CAMPAIGNKEY\" data-app-placeholder=\"Type Text\">Sieh Dir jetzt mein Video an!</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-xxl-7 col-lg-6 col-md-5 image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/2020-03-31-66-impulse-werbemittel-grafiken-v001-social-media-feed-1080x1080-1080x1080-1-1080x1080.jpg\" alt=\"Mobirise\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7SRnBpFSg",
+          "_anchor": "afeatures11-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden",
+            ".mbr-text": {
+              "color": "#00284E",
+              "opacity": "0.8"
+            }
+          },
+          "_name": "afooter7",
+          "_sourceTheme": "cyberm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2022 WSM - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sXTNTAokGw",
+          "_anchor": "afooter7-7",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "DIE KUNST, DEIN DING ZU MACHEN.html": {
+      "settings": {
+        "title": "DIE KUNST, DEIN DING ZU MACHEN 2022 mit Christian Bischoff",
+        "meta_descr": " „Ich habe DIE KUNST, DEIN DING ZU MACHEN für all die Menschen konzipiert, die das Beste aus sich und ihrem Leben machen möchten und über sich hinauswachsen wollen.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "display": "flex",
+              "align-items": "center",
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".label-text": {
+              "width": "100%",
+              "color": "#ffd200",
+              "margin-bottom": "8px"
+            },
+            ".mbr-section-title": {
+              "color": "#010d4c",
+              "margin-bottom": "8px"
+            },
+            ".mbr-text": {
+              "color": "#ffd200",
+              "opacity": "0.8",
+              "padding-bottom": "20px",
+              "padding-top": "10px",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "20px",
+              ".btn-secondary, .btn-primary": {
+                "&:hover": {
+                  "color": "#ffffff !important",
+                  "background-color": "@successColor !important"
+                }
+              },
+              ".btn": {
+                "min-height": "55px",
+                "padding": "10px 45px",
+                "&:before": {
+                  "display": "none"
+                },
+                "&:hover": {
+                  "&:before": {
+                    "display": "none"
+                  }
+                }
+              }
+            },
+            ".image-wrapper": {
+              "@media (max-width: 767px)": {
+                "margin-top": "40px"
+              },
+              "img": {
+                "max-width": "100%",
+                "width": "100%",
+                "height": "auto",
+                "object-fit": "cover",
+                "@media (min-width: 992px)": {
+                  "& when (@reverseContent)": {
+                    "padding-right": "5%"
+                  },
+                  "& when not (@reverseContent)": {
+                    "padding-left": "5%"
+                  }
+                }
+              }
+            },
+            ".list": {
+              "display": "flex",
+              "flex-direction": "column",
+              "color": "#FFFFFF",
+              "padding": "0",
+              "margin-bottom": "0",
+              "margin-top": "16px",
+              "width": "100%"
+            },
+            ".list-item": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-bottom": "13px"
+            },
+            ".icon-wrapper": {
+              "display": "flex",
+              "margin-right": "20px",
+              "span": {
+                "color": "@iconColor",
+                "font-size": "13px"
+              }
+            },
+            ".list-item-text": {
+              "flex-grow": "1",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title, .mbr-section-btn": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "afeatures11",
+          "_sourceTheme": "cyberm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"List\" name=\"showList\" checked>\n        <select title=\"List Amount\" name=\"lists1Amount\" condition=\"showList\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"List Icon\" name=\"showListIcon\" condition=\"showList\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#00fff2\" condition=\"showListIcon && showList\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background-1920x1169.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"col-12 col-xxl-5 col-lg-6 col-md-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <p class=\"label-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLabel\" data-app-selector=\".label-text\">Über 40.000 Teilnehmer haben bereits teilgenommen:</p>\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n<div><b>DIE KUNST, DEIN DING ZU MACHEN 2022</b></div><div><b>\n</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">&nbsp;„Ich habe DIE KUNST, DEIN DING ZU MACHEN für all die Menschen konzipiert, die das Beste aus sich und ihrem Leben machen möchten und über sich hinauswachsen wollen.</p>\n                    <div class=\"lists-container\" mbr-if=\"showList\">\n                        <ul class=\"list\">\n                            <li class=\"list-item\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Nur noch drei Möglichkeiten, dass Seminar zu besuchen<br></p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 1\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Positive Veränderung für Dein Leben im Jahr 2022</p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 2\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Workbook zum Kurs, um das Gelernte zu vertiefen</p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 3\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Exklusive Bonusinhalte für noch mehr Wachstum&nbsp;</p>\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://www.digistore24.com/redir/134575/Websteps/\" data-app-placeholder=\"Type Text\">Ja, ich bin dabei!</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-xxl-7 col-lg-6 col-md-5 image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/christian-bischoff-seminar-dkddzm-1444x963.jpg\" alt=\"Mobirise\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7TpCkKXZ7",
+          "_anchor": "afeatures11-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden",
+            ".mbr-text": {
+              "color": "#00284E",
+              "opacity": "0.8"
+            }
+          },
+          "_name": "afooter7",
+          "_sourceTheme": "cyberm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2022 WSM - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7TpClEUrW",
+          "_anchor": "afooter7-9",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "Die bekanntesten Subliminals Deutschlands.html": {
+      "settings": {
+        "title": "Die bekanntesten Subliminals Deutschlands",
+        "meta_descr": "Programmiere dein Unterbewusstsein mit den wirksamsten Subliminals auf dem deutschen Markt.\nÜber 60.000 Kunden können nicht falsch liegen.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-section-title": {
+              "color": "#010d4c",
+              "margin-bottom": "8px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#00284E",
+              "opacity": "0.8",
+              "padding": "15px 0 20px",
+              "margin-bottom": "0",
+              "@media (min-width: 1400px)": {
+                "margin-left": "3rem!important",
+                "margin-right": "3rem!important"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "6px",
+              ".btn": {
+                "&:before": {
+                  "display": "none"
+                },
+                "&:hover": {
+                  "&:before": {
+                    "display": "none"
+                  }
+                }
+              }
+            },
+            ".image-wrapper": {
+              "margin-top": "40px",
+              "img": {
+                "max-width": "800px",
+                "width": "100%"
+              }
+            }
+          },
+          "_name": "aheader2",
+          "_sourceTheme": "cyberm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"6\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background7.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-if=\"showTitle || showSubitle || showButtons\">\n            <div class=\"col-12 col-lg-{{textWidth}} m-auto col-text\">\n                <h1 class=\"mbr-section-title mbr-fonts-style align-center\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Die bekanntesten Subliminals Deutschlands</h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style align-center\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Programmiere dein Unterbewusstsein mit den wirksamsten Subliminals auf dem deutschen Markt.\n<div>Über 60.000 Kunden können nicht falsch liegen.</div></h2>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary align-center\" href=\"https://www.digistore24.com/redir/143175/Websteps/CAMPAIGNKEY\" data-app-placeholder=\"Type Text\">Entfalte dich in allen Lebensbereichen mit Subliminals</a></div>\n            </div>\n        </div>\n        <div class=\"col-12 image-wrapper\" mbr-if=\"showImage\">\n            <a href=\"https://www.digistore24.com/redir/143175/Websteps/CAMPAIGNKEY\"><img class=\"m-auto\" src=\"@PROJECT_PATH@/assets/images/ajllnigdmoilnafm-768x358.webp\" alt=\"Höre dich erfolgreich!\"></a>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7YWU33fLY",
+          "_anchor": "aheader2-c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden",
+            ".mbr-text": {
+              "color": "#00284E",
+              "opacity": "0.8"
+            }
+          },
+          "_name": "afooter7",
+          "_sourceTheme": "cyberm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2022 WSM - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7YQaP5czW",
+          "_anchor": "afooter7-b",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "Jetzt mit dem Smartphone Geld verdienen!.html": {
+      "settings": {
+        "title": "SMARTPHONE CASH MACHINE - 2022 mit dem Smartphone Geld verdienen!",
+        "meta_descr": "Gunnar Kessler verrät seine Strategie, mit der er jeden Tag über 863€ allein mit dem Smartphone verdient",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "display": "flex",
+              "align-items": "center",
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".label-text": {
+              "width": "100%",
+              "color": "#ffd200",
+              "margin-bottom": "8px"
+            },
+            ".mbr-section-title": {
+              "color": "#010d4c",
+              "margin-bottom": "8px"
+            },
+            ".mbr-text": {
+              "color": "#fafafa",
+              "opacity": "0.8",
+              "padding-bottom": "20px",
+              "padding-top": "10px",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "20px",
+              ".btn-secondary, .btn-primary": {
+                "&:hover": {
+                  "color": "#ffffff !important",
+                  "background-color": "@successColor !important"
+                }
+              },
+              ".btn": {
+                "min-height": "55px",
+                "padding": "10px 45px",
+                "&:before": {
+                  "display": "none"
+                },
+                "&:hover": {
+                  "&:before": {
+                    "display": "none"
+                  }
+                }
+              }
+            },
+            ".image-wrapper": {
+              "@media (max-width: 767px)": {
+                "margin-top": "40px"
+              },
+              "img": {
+                "max-width": "100%",
+                "width": "100%",
+                "height": "auto",
+                "object-fit": "cover",
+                "@media (min-width: 992px)": {
+                  "& when (@reverseContent)": {
+                    "padding-right": "5%"
+                  },
+                  "& when not (@reverseContent)": {
+                    "padding-left": "5%"
+                  }
+                }
+              }
+            },
+            ".list": {
+              "display": "flex",
+              "flex-direction": "column",
+              "color": "#FFFFFF",
+              "padding": "0",
+              "margin-bottom": "0",
+              "margin-top": "16px",
+              "width": "100%"
+            },
+            ".list-item": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-bottom": "13px"
+            },
+            ".icon-wrapper": {
+              "display": "flex",
+              "margin-right": "20px",
+              "span": {
+                "color": "@iconColor",
+                "font-size": "13px"
+              }
+            },
+            ".list-item-text": {
+              "flex-grow": "1",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title, .mbr-section-btn": {
+              "color": "#00fff2"
+            }
+          },
+          "_name": "afeatures11",
+          "_sourceTheme": "cyberm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"List\" name=\"showList\" checked>\n        <select title=\"List Amount\" name=\"lists1Amount\" condition=\"showList\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"List Icon\" name=\"showListIcon\" condition=\"showList\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#00fff2\" condition=\"showListIcon && showList\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#010d4c\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"col-12 col-xxl-5 col-lg-6 col-md-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <p class=\"label-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLabel\" data-app-selector=\".label-text\">Jetzt mit dem Smartphone Geld verdienen!</p>\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n<div><span style=\"font-size: 3.75rem;\"><b>SMART</b></span><b style=\"font-size: 3.75rem;\">PHONE CASH MACHINE</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Gunnar Kessler verrät seine Strategie, mit der er jeden Tag über 863€ allein mit dem Smartphone verdient</p>\n                    <div class=\"lists-container\" mbr-if=\"showList\">\n                        <ul class=\"list\">\n                            <li class=\"list-item\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Dein Smartphone verdient ab sofort Geld für Dich!</p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 1\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Keine Vorkenntnisse nötig</p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 2\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">Für jeden zwischen 18 und 88 - 1:1 kopierbar</p>\n                            </li>\n                            <li class=\"list-item\" mbr-if=\"lists1Amount > 3\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showListIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></span>\n                                </div>\n                                <p class=\"list-item-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">komme schon heute in\n<br>den Besitz aller notwendigen Strategien</p>\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://www.digistore24.com/redir/230451/Websteps/CAMPAIGNKEY\" data-app-placeholder=\"Type Text\">Sieh Dir jetzt mein Video an!</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-xxl-7 col-lg-6 col-md-5 image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/scm-1-591x518.png\" alt=\"Mobirise\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "afeatures11-f",
+          "_isUserblock": true,
+          "_cid": "t7YZ5DDjYM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden",
+            ".mbr-text": {
+              "color": "#00284E",
+              "opacity": "0.8"
+            }
+          },
+          "_name": "afooter7",
+          "_sourceTheme": "cyberm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2022 WSM - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7YZ3qaA6T",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "afooter7-e"
+        }
+      ]
+    }
+  }
+}
