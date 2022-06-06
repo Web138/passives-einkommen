@@ -1,0 +1,2 @@
+# passives-einkommen
+GitHub Pages
